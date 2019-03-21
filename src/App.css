@@ -3,20 +3,23 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 35px;
+  width: 200px;
+  min-height: 5vh;
   pointer-events: none;
+  float: left;
 }
 
 .App-header {
+  height: 35px;
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -31,3 +34,4 @@
     transform: rotate(360deg);
   }
 }
+

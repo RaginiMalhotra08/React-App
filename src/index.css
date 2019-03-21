@@ -12,3 +12,129 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+nav {
+  margin-top: 40px;
+  padding: 0 1 rem;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+ul li{
+  display: inline;
+}
+
+.searchbox {
+  position: absolute;
+  float: right;
+  padding: 5px;
+  width:250px;
+  text-align: left;
+  right: 2%;
+  top: 2%;
+}
+
+.headerlogo {
+  float: left;
+  margin-right: 10px;
+  
+}
+
+  .headerlogo > img {
+      height: 60px;
+      width: 60px;
+  }
+
+.companydetails {
+  float: left;
+  width: 0px;
+  padding: 1%;
+}
+.textlabel
+{
+    text-align: left;
+    font-size:15px;
+    margin: 0px;
+    display: block;
+    width: 200px;
+    padding: 0px;
+    float: left;
+}
+
+  .textlabel > .textinput
+        {
+            width: 200px;
+            height: 15px;
+            padding: 0px;
+            border: 1px solid #888888;
+        }
+  .textlabel > .submitbutton {
+          width: 200px;
+          padding: 5px;
+          border: 1px solid #888888;  
+        }
+
+fieldset
+{
+    padding: 0px;
+    border: none;
+  
+}
+.table
+{
+  font-size: 12px;  
+  padding: 0px;
+    border: none;
+  
+}
+.project-tab {
+  padding: 10%;
+  margin-top: -8%;
+}
+.project-tab #tabs{
+  background: #007b5e;
+  color: #eee;
+}
+.project-tab #tabs h6.section-title{
+  color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #0062cc;
+  background-color: transparent;
+  border-color: transparent transparent #f3f3f3;
+  border-bottom: 3px solid !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+.project-tab .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  color: #0062cc;
+  font-size: 16px;
+  font-weight: 600;
+}
+.project-tab .nav-link:hover {
+  border: none;
+}
+.project-tab thead{
+  background: #f3f3f3;
+  color: #333;
+}
+.project-tab a{
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.col-md-9 {
+  float: left;
+  width: 0px;
+  padding: 5%;
+  margin-left: 10px;
+}
+
+.bar {
+  float: left;
+  padding: 0%;
+  margin-left: 0px;
+  width: auto;
+}
